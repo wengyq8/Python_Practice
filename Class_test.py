@@ -1,5 +1,5 @@
 class MyClass:
     def myNoActionMethod(self):
-        print 'Class test'
+        print 'Test git push'
 mc = MyClass()
 mc.myNoActionMethod()
