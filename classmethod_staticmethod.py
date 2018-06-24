@@ -1,4 +1,5 @@
 # -*- coding: utf-8 -*-
+#test github myBranch
 class ClassMethod_StaticMethod():
     def foo(self, x):
         print "foo(%s, %s)"%(self, x)
