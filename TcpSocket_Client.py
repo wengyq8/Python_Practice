@@ -9,7 +9,7 @@ tcpCliSock = socket(AF_INET, SOCK_STREAM)
 tcpCliSock.connect(ADDR)
 
 while True:
-    data = input('> ')
+    data = input('Please input:')
     if not data:
         break
     tcpCliSock.send(data)
